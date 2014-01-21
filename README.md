@@ -17,7 +17,7 @@ Will return a jQuery object of all input, textarea, and option elements within t
 - radio buttons
 - options of a select box
 
-Please note, that if you manipulate the values or states of those elements by a script, you have to use .val() or .prop() instead of .attr(). The use of .attr() to manipulate the value of an element overwrites the original value. So to change the values do it this way:
+Please note, that if you manipulate the values or states of those elements by a script, you have to use `.val()` or `.prop()` instead of `.attr()`. The use of `.attr()` to manipulate the value of an element overwrites the original value. So to change the values do it this way:
 
     $("input[type=text]").val("foo");
     $("input[type=password]").val("t0Ps€cRe7");
